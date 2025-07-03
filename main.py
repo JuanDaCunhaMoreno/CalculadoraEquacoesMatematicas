@@ -34,7 +34,7 @@ def ResolverEquacao():
 janela = tk.Tk()
 janela.title("Calculadora de Equações Matemáticas")
 
-label = tk.Label(janela, text="Digite a equação (ex: 2*x + 3 = 0):")
+label = tk.Label(janela, text="Digite a equação (ex: 2*x + 3 = 0 ou x**2 - 5*x + 6 = 0):")
 label.pack(padx=10, pady=5)
 #Input
 entrada_equacao = tk.Entry(janela, width=40)
